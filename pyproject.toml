@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "fast-template"
+version = "0.1.0"
+description = ""
+authors = ["Asadbek <ahikmatullayev024@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+fastapi = {extras = ["all"], version = "^0.115.5"}
+sqlalchemy = "^2.0.36"
+asyncpg = "^0.30.0"
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+alembic = {extras = ["sqlalchemy"], version = "^1.14.0"}
+greenlet = "^3.1.1"
+pyjwt = "^2.10.1"
+aiofiles = "^24.1.0"
+python-multipart = "^0.0.19"
+psycopg-binary = "^3.2.3"
+psycopg = {extras = ["binary"], version = "^3.2.3"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
