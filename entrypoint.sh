@@ -34,8 +34,10 @@ while True:
     time.sleep(1)
 END
 
-./opt/manage.sh migrate "something";
-cd /opt/project && alembic upgrade head;
+
+# cd .. && ls;
+# ./manage.sh migrate "something";
+# cd /opt/project && alembic upgrade head;
 
 >&2 echo 'PostgreSQL is available'
 
