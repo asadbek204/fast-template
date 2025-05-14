@@ -35,9 +35,8 @@ while True:
 END
 
 
-# cd .. && ls;
 # ./manage.sh migrate "something";
-# cd /opt/project && alembic upgrade head;
+alembic upgrade head;
 
 >&2 echo 'PostgreSQL is available'
 
